@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
-import { navItems } from "../../data/data"
+
 import logoIcon from '../../../public/assets/logo.svg'
 import loopIcon from '../../../public/assets/loop.svg'
 import walletIcon from '../../../public/assets/wallet.svg'
 import './header.css'
+import { navItems } from "../../../public/data/data"
 
 
 const Header = () => {
