@@ -1,0 +1,63 @@
+
+html, body {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, 
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 20px 30px 0 30px;
+}
+
+body {
+  background: rgb(15,23,42);
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Montserrat-M';
+  src: url('../app/fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-B';
+  src: url('../app/fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira';
+  src: url('../app/fonts/FiraSans-Regular.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,73 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav-item {
+    font-family: 'Fira';
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.header__nav-item:hover {
+    color: rgb(65, 217, 251);
+}
+
+.header__wallet__text-item {
+    font-family: 'Fira';
+    color: #fff;
+}
+
+.header__circle__money-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__logo__loop-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__wallet-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 3px 6px 3px 4px;
+    border-radius: 20px;
+    background: rgb(11,16,26);
+    gap: 20px;
+}
+
+.header__loop-item {
+    width: 30px;
+}
+
+.header__circle-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(48, 226, 208), rgb(83, 249, 83));
+    transition: all 0.2s ease-in-out;
+}
+
+.header__circle-item:hover {
+    background: linear-gradient(90deg, rgb(83, 249, 83), rgb(48, 226, 208));
+    width: 42px;
+    height: 42px;
+}
+
+.header__wallet-img {
+    padding-top: 2px;
+    width: 40px;
+}
+
+.header__logo-item {
+    width: 50px;
+}
