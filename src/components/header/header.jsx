@@ -8,12 +8,13 @@ import './header.css'
 
 const Header = () => {
     return (
+        <>
 			<div className='container'>
 				<div className='header__wrapper'>
 					<div className='header__logo__loop-wrapper'>
-						<div className='header__logo'>
+						<Link to={''} className='header__logo'>
 							<img className="header__logo-item" src={logoIcon} alt='' />
-						</div>
+						</Link>
 						<div className='header__loop'>
 							<img className="header__loop-item" src={loopIcon} alt='' />
 						</div>
@@ -43,7 +44,9 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-		)
+            <div className="header__border"></div>
+        </>
+	)
 }
 
 export default Header

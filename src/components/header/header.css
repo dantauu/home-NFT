@@ -34,6 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .header__wallet-wrapper {
@@ -43,6 +44,10 @@
     border-radius: 20px;
     background: rgb(11,16,26);
     gap: 20px;
+}
+
+.header__loop {
+    cursor: pointer;
 }
 
 .header__loop-item {
@@ -70,4 +75,10 @@
 
 .header__logo-item {
     width: 50px;
+}
+
+.header__border {
+    width: 100%;
+    border-bottom: 1px solid #454545;
+    padding-top: 12px;
 }
