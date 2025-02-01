@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 import logoIcon from '../../../public/assets/logo.svg'
 import loopIcon from '../../../public/assets/loop.svg'
 import walletIcon from '../../../public/assets/wallet.svg'
-import './header.css'
 import { navItems } from "../../../public/data/data"
+import './header.css'
 
 
 const Header = () => {
