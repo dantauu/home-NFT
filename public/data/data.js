@@ -13,7 +13,8 @@ import solanaIcon from '../assets/solana.png'
 const navItems = [
 	{ text: 'Collections', id: 1, link: '' },
 	{ text: 'Tools', id: 2, link: '' },
-	{ text: 'Support', id: 3, link: '' },
+	{ text: 'Launch Coin', id: 3, link: '' },
+	{ text: 'Swap', id: 4, link: '' },
 ]
 
 const collectionItems = [
