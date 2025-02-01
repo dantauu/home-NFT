@@ -1,0 +1,131 @@
+.home__nft-text {
+    font-family: 'Montserrat-B';
+    font-size: 47px;
+    color: #fff;
+}
+
+.home__nft__button-item {
+    background: none;
+    border: none;
+    font-family: 'Montserrat-B';
+    color: #fff;
+    font-size: 15px;
+    background: linear-gradient(90deg, rgb(83, 249, 83), rgb(48, 226, 208));
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home__nft-wrapper {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* CARD */
+
+.home__nft__card-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 47% 2fr; */
+    /* grid-template-rows: 54% 1fr; */
+}
+
+.home__nft__two-card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 35px;
+}
+
+.home__nft__three-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__nft__wrapper__last__img {
+    display: flex;
+    gap: 40px;
+}
+
+/* CARD 1 */
+
+.home__nft__img-class {
+    width: 420px;
+    height: 291px;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+/* CARD 2 */
+
+.home__nft__img-class-2 {
+    width: 580px;
+    height: 290px;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+/* CARD 3 */
+
+.home__nft__img-class-3 {
+    width: 420px;
+    height: 178px;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+/* CARD 4 */
+
+.home__nft__img-class-4 {
+    width: 270px;
+    height: 177px;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+/* CARD 5 */
+
+.home__nft__img-class-5 {
+    width: 270px;
+    height: 177px;
+    border-radius: 10px;
+    border: 3px solid #a2a2a2;
+    border-radius: 10px;
+}
+
+.wrapper__card {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper__card:hover {
+    transform: scale(1.04);
+}
+
+.card__text-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 31%;
+}
+
+.card__text-class {
+    font-family: 'Montserrat-B';
+    font-size: 26px;
+    background: linear-gradient(90deg, rgb(230 155 243), rgb(75 209 195));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
