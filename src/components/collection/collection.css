@@ -1,10 +1,15 @@
 
 .collection__wrapper {
-    display: grid;
-    justify-content: flex-end;
-    grid-template-columns: repeat(auto-fill, 374px);
+    display: flex;
+    justify-content: center;
     align-items: center;
     row-gap: 20px;
+}
+
+.connection__wrapper-scroll {
+    display: flex;
+    max-width: 726px;
+    overflow: auto;
 }
 
 .collection__text-wrapper {

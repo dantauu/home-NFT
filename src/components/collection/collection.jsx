@@ -6,9 +6,10 @@ const Collection = () => {
     return (
 			<div className='container'>
 				<div className='collection-title'>
-					<h2 className='collection__title-item'>Hot Collections</h2>
+					<h2 className='collection__title-item'>Trends</h2>
 				</div>
 				<div className='collection__wrapper'>
+                    <div className="connection__wrapper-scroll">
 					{collectionItems.map(item => (
 						<>
 							<Link className='collection__items-wrapper' to={item.link}>
@@ -24,6 +25,7 @@ const Collection = () => {
 							</Link>
 						</>
 					))}
+                    </div>
 				</div>
 			</div>
 		)
