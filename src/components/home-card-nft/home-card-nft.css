@@ -16,8 +16,8 @@
     background: linear-gradient(90deg, rgb(83, 249, 83), rgb(48, 226, 208));
     width: 170px;
     height: 50px;
-    border-radius: 20px;
-    cursor: pointer;
+    border-radius: 20px; 
+    cursor: pointer; 
 }
 
 .home__nft-wrapper {
@@ -34,7 +34,7 @@
 .input__wrapper {
     display: flex;
     align-items: center;
-    background: linear-gradient(90deg, rgb(230 155 243), rgb(75 209 195));
+    background: linear-gradient(90deg, rgb(230 155 244), rgb(75 209 195));
     cursor: pointer;
     border-radius: 15px;
     padding: 5px 10px 5px 10px;
