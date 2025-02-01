@@ -33,5 +33,12 @@ const whatsNftItems = [
 	{ text: 'Solana', id: 4, img: solanaIcon },
 ]
 
-export { navItems, collectionItems, whatsNftItems }
+const swapNavItems = [
+	{ text: 'Swap', link: '', id: 1 },
+	{ text: 'Amplify', link: '', id: 2 },
+	{ text: 'Launch & Ape', link: '', id: 3 },
+	{ text: 'More', link: '', id: 4 },
+]
+
+export { navItems, collectionItems, whatsNftItems, swapNavItems }
 

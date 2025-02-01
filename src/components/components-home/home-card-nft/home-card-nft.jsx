@@ -1,18 +1,19 @@
-import Button from '../../shared/ui/button/button'
-import Card from '../../shared/ui/card/card'
-import bitcoinIcon from '../../../public/assets/bitcoin.jpg'
-import sunIcon from '../../../public/assets/sun.jpg'
-import spaceIcon from '../../../public/assets/space-planets.jpg'
-import foxIcon from '../../../public/assets/fox.jpg'
-import landScapeIcon from '../../../public/assets/landscape.jpg'
+import Button from '../../../shared/ui/button/button'
+import Card from '../../../shared/ui/card/card'
+import bitcoinIcon from '../../../../public/assets/bitcoin.jpg'
+import sunIcon from '../../../../public/assets/sun.jpg'
+import spaceIcon from '../../../../public/assets/space-planets.jpg'
+import foxIcon from '../../../../public/assets/fox.jpg'
+import landScapeIcon from '../../../../public/assets/landscape.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './home-card-nft.css'
-import Input from '../../shared/ui/input/input'
+import Input from '../../../shared/ui/input/input'
 import { useContext } from 'react'
-import { InputContext } from '../../app/App'
+import { Link } from 'react-router-dom'
+import { InputContext } from '../../../app/App'
 
 const HomeCardNft = () => {
 	const { activeInput } = useContext(InputContext)
@@ -27,12 +28,13 @@ const HomeCardNft = () => {
 						Launch your NFT collection in 5 minutes
 					</h1>
 				</div>
-			<div className='home__nft-button'>
+			<Link to={'/swap'} className='home__nft-button'>
 				<Button
 					buttonText={'Create'}
 					buttonClass={'home__nft__button-item'}
+
 				/>
-			</div>
+			</Link>
 			<div className=''>
 				<Swiper
 					pagination={{

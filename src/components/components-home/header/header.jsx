@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import logoIcon from '../../../public/assets/logo.png'
-import loopIcon from '../../../public/assets/loop.svg'
-import walletIcon from '../../../public/assets/wallet.svg'
-import { navItems } from "../../../public/data/data"
+import logoIcon from '../../../../public/assets/logo.png'
+import loopIcon from '../../../../public/assets/loop.svg'
+import walletIcon from '../../../../public/assets/wallet.svg'
+import { navItems } from "../../../../public/data/data"
 import { useContext } from "react"
-import { InputContext } from "../../app/App"
+import { InputContext } from "../../../app/App"
 import './header.css'
 
 

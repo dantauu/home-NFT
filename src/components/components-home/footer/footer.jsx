@@ -1,8 +1,8 @@
-import logoIcon from '../../../public/assets/logo.png'
-import vkIcon from '../../../public/assets/vk.svg'
-import tgIcon from '../../../public/assets/telegram.svg'
-import './footer.css'
+import logoIcon from '../../../../public/assets/logo.png'
+import vkIcon from '../../../../public/assets/vk.svg'
+import tgIcon from '../../../../public/assets/telegram.svg'
 import { Link } from 'react-router-dom'
+import './footer.css'
 
 
 const Footer = () => {

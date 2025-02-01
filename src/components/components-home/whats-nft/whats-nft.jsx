@@ -1,4 +1,4 @@
-import { whatsNftItems } from "../../../public/data/data"
+import { whatsNftItems } from "../../../../public/data/data"
 import './whats-nft.css'
 
 const WhatsNft = () => {

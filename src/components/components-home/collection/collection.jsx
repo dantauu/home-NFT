@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { collectionItems } from '../../../public/data/data'
+import { collectionItems } from '../../../../public/data/data'
 import './collection.css'
 
 const Collection = () => {

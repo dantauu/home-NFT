@@ -1,0 +1,31 @@
+.header__swap-img {
+    width: 65px;
+}
+
+.header__swap-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header__swap__links-items {
+    display: flex;
+    gap: 30px;
+}
+
+.header__swap__links-inner {
+    font-family: 'Fira';
+    font-size: 15px;
+}
+
+.header__swap__button-item {
+    width: 170px;
+    height: 50px;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    background: var(--main-gradient-text);
+    font-family: 'Fira';
+    font-size: 17px;
+    cursor: pointer;
+}
