@@ -9,9 +9,9 @@
     border: none;
     font-family: 'Montserrat-B';
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     background: linear-gradient(90deg, rgb(83, 249, 83), rgb(48, 226, 208));
-    width: 140px;
+    width: 170px;
     height: 50px;
     border-radius: 20px;
     cursor: pointer;
@@ -24,6 +24,32 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+/* INPUT */
+
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(230 155 243), rgb(75 209 195));
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.input-inner {
+    border-radius: 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: none;
+}
+
+.input__item__img-inner {
+    width: 30px;
 }
 
 /* CARD */
@@ -78,6 +104,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.home__nft__text-item {
+    width: 431px;
+    text-align: center;
 }
 
 /* SWIPER */

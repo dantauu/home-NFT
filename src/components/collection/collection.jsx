@@ -10,9 +10,10 @@ const Collection = () => {
 				</div>
 				<div className='collection__wrapper'>
                     <div className="connection__wrapper-scroll">
-					{collectionItems.map(item => (
+					{collectionItems.map((item, index) => (
 						<>
-							<Link className='collection__items-wrapper' to={item.link}>
+							<Link className='collection__items-wrapper' key={index} 
+							to={item.link}>
 								<div className='collection__item-number'>
 									<p className='collection-number'>{item.id}</p>
 								</div>
