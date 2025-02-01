@@ -11,12 +11,12 @@
 
 .header__nav-item {
     font-family: 'Fira';
-    color: #fff;
+    color: rgb(244 113 49);
     transition: all 0.2s ease-in-out;
 }
 
 .header__nav-item:hover {
-    color: rgb(65, 217, 251);
+    color: rgba(244, 114, 49, 0.735);
 }
 
 .header__wallet__text-item {
@@ -51,19 +51,19 @@
 }
 
 .header__loop-item {
-    width: 30px;
+    width: 24px;
 }
 
 .header__circle-item {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(90deg, rgb(48, 226, 208), rgb(83, 249, 83));
+    background: linear-gradient(90deg, rgb(254 185 0), rgb(100 255 100));
     transition: all 0.2s ease-in-out;
 }
 
 .header__circle-item:hover {
-    background: linear-gradient(90deg, rgb(83, 249, 83), rgb(48, 226, 208));
+    background: linear-gradient(90deg, rgba(254, 186, 0, 0.788), rgba(100, 255, 100, 0.784));
     width: 42px;
     height: 42px;
 }

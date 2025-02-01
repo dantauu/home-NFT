@@ -41,7 +41,7 @@ const Header = () => {
                                 src={walletIcon} alt='' />
 							</div>
 							<div className='header__wallet-text'>
-								<p className='header__wallet__text-item'>Connect Wallet</p>
+								<p className='header__wallet__text-item'>Wallet</p>
 							</div>
 						</Link>
 					</div>

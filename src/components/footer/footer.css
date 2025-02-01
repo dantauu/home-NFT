@@ -1,0 +1,88 @@
+
+.footer__wrapper {
+    padding: 90px 0 90px 0;
+    display: flex;
+    gap: 200px;
+}
+
+.left__footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__socials-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__socials__item-inner {
+    width: 45px;
+}
+
+.footer__wrapper-back {
+    margin-top: 90px;
+    background: rgb(7 11 20)
+}
+
+.collection__footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information__footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.support__footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collection__footer__item-text {
+    font-family: 'Montserrat-B';
+}
+
+.information__footer__item-text {
+    font-family: 'Montserrat-B';
+}
+
+.support__footer__item-text {
+    font-family: 'Montserrat-B';
+}
+
+.collection__footer__title-item {
+    font-family: 'Fira';
+}
+
+.information__footer__title-item {
+    font-family: 'Fira';
+}
+
+.support__footer__title-item {
+    font-family: 'Fira';
+}
+
+.footer__launch-item {
+    font-family: 'Fira';
+}
+
+.information__footer__title-wrapper {
+    padding-bottom: 20px;
+}
+
+.support__footer__title-wrapper {
+    padding-bottom: 20px;
+}
+
+.collection__footer__title-wrapper {
+    padding-bottom: 20px;
+}
+
+.footer__logo-item {
+    width: 80px;
+}

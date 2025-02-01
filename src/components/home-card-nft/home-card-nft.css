@@ -21,7 +21,6 @@
 }
 
 .home__nft-wrapper {
-    padding-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +40,6 @@
 }
 
 .input-inner {
-    border-radius: 15px;
     cursor: pointer;
     width: 250px;
     height: 40px;

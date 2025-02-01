@@ -31,7 +31,6 @@ const whatsNftItems = [
 	{ text: 'Ethereum', id: 2, img:  ethereumIcon},
 	{ text: 'Binance', id: 3, img: binanceIcon },
 	{ text: 'Solana', id: 4, img: solanaIcon },
-
 ]
 
 export { navItems, collectionItems, whatsNftItems }
