@@ -1,7 +1,10 @@
 .home__nft-text {
     font-family: 'Montserrat-B';
     font-size: 47px;
-    color: #fff;
+    background: var(--gradient-text-ease);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .home__nft__button-item {

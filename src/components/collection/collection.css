@@ -23,7 +23,7 @@
 
 .collection-text {
     font-family: 'Fira';
-    background: linear-gradient(90deg, rgb(230 155 243), rgb(75 209 195));
+    background: var(--gradient-text-ease);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

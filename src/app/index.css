@@ -48,6 +48,7 @@ a {
 
 :root {
   --main-gradient-text: linear-gradient(90deg, rgb(219 78 243), rgb(0 255 228));
+  --gradient-text-ease: linear-gradient(90deg, rgb(229 158 241), rgb(121 237 224));
 }
 
 /* FONTS */
