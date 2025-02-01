@@ -4,6 +4,10 @@ import catIcon from '../assets/nft-cat.jpg'
 import blockIcon from '../assets/nft-block.jpg'
 import waterIcon from '../assets/nft-water.jpg'
 import worldIcon from '../assets/nft-world.jpg'
+import suiIcon from '../assets/sui.svg'
+import ethereumIcon from '../assets/ethereum.svg'
+import binanceIcon from '../assets/binance.svg'
+import solanaIcon from '../assets/solana.png'
 
 
 const navItems = [
@@ -21,5 +25,13 @@ const collectionItems = [
 	{ text: 'NFT world', id: 6, link: '', img: worldIcon }
 ]
 
-export { navItems, collectionItems }
+const whatsNftItems = [
+	{ text: 'Sui', id: 1, img: suiIcon },
+	{ text: 'Ethereum', id: 2, img:  ethereumIcon},
+	{ text: 'Binance', id: 3, img: binanceIcon },
+	{ text: 'Solana', id: 4, img: solanaIcon },
+
+]
+
+export { navItems, collectionItems, whatsNftItems }
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logoIcon from '../../../public/assets/logo.svg'
+import logoIcon from '../../../public/assets/logo.png'
 import loopIcon from '../../../public/assets/loop.svg'
 import walletIcon from '../../../public/assets/wallet.svg'
 import { navItems } from "../../../public/data/data"
@@ -24,8 +24,8 @@ const Header = () => {
 					</div>
 					<div className='header__nav'>
 						<ul className='header__nav-list'>
-							{navItems.map((item, index) => (
-								<Link key={index} to={item.link}>
+							{navItems.map((item) => (
+								<Link key={item.id} to={item.link}>
 									<li className="header__nav-item">{item.text}</li>
 								</Link>
 							))}

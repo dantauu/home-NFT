@@ -37,7 +37,7 @@
 .collection__title-item {
     font-size: 35px;
     font-family: 'Montserrat-B';
-    background: linear-gradient(90deg, rgb(219 78 243), rgb(0 255 228));
+    background: var(--main-gradient-text);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

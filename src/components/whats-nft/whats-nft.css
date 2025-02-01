@@ -1,0 +1,36 @@
+
+
+.whats__text__img__wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whats__text__img-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.whats__title__item-inner {
+    font-family: 'Montserrat-B';
+    font-size: 35px;
+    background: var(--main-gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.whats__nft__text-item {
+    font-family: 'Fira';
+}
+
+.whats__title-item {
+    padding: 70px 0 50px 0;
+    text-align: center;
+}
+
+.whats__nft__img_item {
+    width: 50px;
+}
