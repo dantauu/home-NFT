@@ -12,10 +12,10 @@ export const InputContext = createContext()
 export const TrendingContext = createContext()
 
 function App() {
-  const location = useLocation()
-  const [showTrending, setShowTrending] = useState('Top Solana NFT`s')
-  const [activeInput, setActiveInput] = useState(false)
-  const aciveInputFunc = () => {
+	const location = useLocation()
+  	const [showTrending, setShowTrending] = useState('Top Solana NFT`s')
+  	const [activeInput, setActiveInput] = useState(false)
+  	const aciveInputFunc = () => {
 		setActiveInput(prevState => !prevState)
 	}
 
