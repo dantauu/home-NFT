@@ -22,9 +22,9 @@ import memeCoinIcon from '../../public/assets/memecoin.png'
 const navItems = [
 	{ text: 'Collections', id: 1, link: '' },
 	{ text: 'Tools', id: 2, link: '' },
-	{ text: 'Create NFT', id: 3, link: '/swap' },
+	{ text: 'Create NFT', id: 3, link: '/create-nft' },
 	{ text: 'Launch Coin', id: 4, link: '' },
-	{ text: 'Swap', id: 5, link: '' },
+	{ text: 'Swap', id: 5, link: '/swap' },
 ]
 
 const collectionItems = [
