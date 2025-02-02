@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const CreateNftCard = ({ img, title, description, buttonText }) => {
@@ -17,11 +18,11 @@ const CreateNftCard = ({ img, title, description, buttonText }) => {
                         {description}
                     </p>
                 </div>
-                <div className="create__nft__card-button">
+                <Link to={''} className="create__nft__card-button">
                     <button className="create__nft__card__button-item">
                         {buttonText}
                     </button>
-                </div>
+                </Link>
             </div>
         </div>
     )

@@ -1,8 +1,11 @@
+import Footer from "../components/components-home/footer/footer"
 import { createContext, useState } from "react"
 import Home from "../pages/home/home"
 import { Route, Routes } from "react-router-dom"
 import Swap from "../pages/swap/swap"
 import CreateNft from "../pages/create-nft/create-nft"
+import Header from "../components/components-home/header/header"
+
 
 
 export const InputContext = createContext()
@@ -20,11 +23,13 @@ function App() {
 		<>
 		<TrendingContext.Provider value={{ showTrending, setShowTrending }}>
 			<InputContext.Provider value={{ activeInput, aciveInputFunc }}>
+			{location.pathname !== '/swap' && <Header />}
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/swap' element={<Swap />} />
 					<Route path='/create-nft' element={<CreateNft />} />
 				</Routes>
+			{location.pathname !== '/swap' && <Footer /> }
 			</InputContext.Provider>
 		</TrendingContext.Provider>
 		</>

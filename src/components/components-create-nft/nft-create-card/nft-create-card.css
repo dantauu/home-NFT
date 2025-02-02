@@ -1,0 +1,50 @@
+
+.nft__create__card__full-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.create__nft__card-description {
+    max-width: 286px;
+    text-align: center;
+}
+
+.create__nft__card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.create__nft__card__button-item {
+    width: 180px;
+    height: 60px;
+    background: var(--main-gradient-text);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Fira';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.creat__nft__card-wrapper {
+    width: 450px;
+    background: rgb(7 11 20);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.create__nft__card__title-item {
+    font-family: 'Montserrat-B';
+    font-size: 32px;
+}
+
+.create__nft__card__description-item {
+    font-family: 'Fira';
+    font-size: 15px;
+}
+
+.create__nft__card__img-item {
+    width: 140px;
+}
