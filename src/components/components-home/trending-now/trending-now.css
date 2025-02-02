@@ -9,7 +9,8 @@
     gap: 30px;
     height: 300px;
     overflow: auto;
-    width: 620px;
+    width: 800px;
+    align-items: center;
     background: rgb(7 11 20);
     padding: 20px 10px 20px 10px;
     border-radius: 5px;
