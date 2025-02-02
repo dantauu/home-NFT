@@ -28,13 +28,6 @@ const HomeCardNft = () => {
 						Launch your NFT collection in 5 minutes
 					</h1>
 				</div>
-			<Link to={'/swap'} className='home__nft-button'>
-				<Button
-					buttonText={'Create'}
-					buttonClass={'home__nft__button-item'}
-
-				/>
-			</Link>
 			<div className=''>
 				<Swiper
 					pagination={{
