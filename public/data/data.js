@@ -16,6 +16,7 @@ import catAvaIcon from '../../public/assets/avatars/cat-ava.jpg'
 import horseIcon from '../../public/assets/avatars/horse-ava.jpg'
 import manIcon from '../../public/assets/avatars/man-ava.jpg'
 import shotIcon from '../../public/assets/avatars/shot-ava.jpg'
+import memeCoinIcon from '../../public/assets/memecoin.png'
 
 
 const navItems = [
@@ -129,5 +130,92 @@ const trendingNowItems = [
 	},
 ]
 
-export { navItems, collectionItems, whatsNftItems, swapNavItems, trendingNowItems }
+
+const trendingMemeItems = [
+	{
+		icon: starIcon,
+		id: 1,
+		avatar: threeDBirdIcon,
+		checkIcon: '',
+		text: 'PAW$ VOICHES',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 2,
+		avatar: bigFootIcon,
+		checkIcon: '',
+		text: 'Portals',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 3,
+		avatar: birdIcon,
+		checkIcon: '',
+		text: 'Mad Lads',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 4,
+		avatar: catAvaIcon,
+		checkIcon: '',
+		text: 'Retardio',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 5,
+		avatar: horseIcon,
+		checkIcon: '',
+		text: 'DeGods',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 6,
+		avatar: manIcon,
+		checkIcon: '',
+		text: 'ai16z partners',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 7,
+		avatar: shotIcon,
+		checkIcon: '',
+		text: 'P9 Nodes',
+		iconMemecoin: memeCoinIcon,
+		textMemecoin: 4900,
+		nextTextMemecion: 9700,
+		minted: 'Minted',
+	},
+]
+
+export { navItems,
+		collectionItems,
+		whatsNftItems,
+		swapNavItems,
+		trendingNowItems,
+		trendingMemeItems
+		}
 

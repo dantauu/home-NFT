@@ -1,15 +1,10 @@
 import { trendingNowItems } from '../../../../public/data/data'
 import './trending-now.css'
 
-const TrendingNow = () => {
+const TrendingSolana = () => {
     return (
         <div className="container">
             <div className="trending__now-wrapper">
-                <div className="trending__now__title-wrapper">
-                    <h1 className='trending__now__title-item'>
-                        Trending now
-                    </h1>
-                </div>
              <div className="trending__now__collection__full-wrapper">
                 <div className="trending__now__collection-wrapper">
                     {trendingNowItems.map((item) => (
@@ -65,4 +60,4 @@ const TrendingNow = () => {
     )
 }
 
-export default TrendingNow
+export default TrendingSolana

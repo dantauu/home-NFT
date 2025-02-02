@@ -18,7 +18,7 @@ html, body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 
 ul, 
@@ -38,10 +38,6 @@ img {
 
 body {
   background: rgb(9 17 34);
-}
-
-a {
-  color: #fff;
 }
 
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {

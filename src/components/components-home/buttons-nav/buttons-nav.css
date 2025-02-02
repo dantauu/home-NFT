@@ -1,0 +1,22 @@
+
+.buttons__nav__trending-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.buttons__nav__trending__item-inner {
+    width: 185px;
+    height: 55px;
+    background: linear-gradient(90deg, rgb(229 158 241 / 41%), rgb(121 237 224 / 37%));;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Fira';
+    font-size: 17px;
+}
+
+.select {
+    background: var(--gradient-text-ease);
+}

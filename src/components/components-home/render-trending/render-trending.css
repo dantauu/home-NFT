@@ -1,0 +1,12 @@
+.trending__now__title-wrapper {
+    padding: 85px 0 40px 0;
+    text-align: center;
+}
+
+.trending__now__title-item {
+    background: var(--main-gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat-B';
+}

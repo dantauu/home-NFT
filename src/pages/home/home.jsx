@@ -3,7 +3,8 @@ import Header from "../../components/components-home/header/header"
 import HomeCardNft from "../../components/components-home/home-card-nft/home-card-nft"
 import WhatsNft from "../../components/components-home/whats-nft/whats-nft"
 import Footer from "../../components/components-home/footer/footer"
-import TrendingNow from "../../components/components-home/trending-now/trending-now"
+import TrendingContentRender from '../../components/components-home/render-trending/render-trending'
+
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
         <>
             <Header />
             <HomeCardNft />
-            <TrendingNow />
+            <TrendingContentRender />
             <Collection />
             <WhatsNft />
             <Footer />
