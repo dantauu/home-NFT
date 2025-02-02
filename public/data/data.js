@@ -8,6 +8,14 @@ import suiIcon from '../assets/sui.svg'
 import ethereumIcon from '../assets/ethereum.svg'
 import binanceIcon from '../assets/binance.svg'
 import solanaIcon from '../assets/solana.png'
+import starIcon from '../../public/assets/avatars/star.svg'
+import threeDBirdIcon from '../../public/assets/avatars/3d-bird-ava.jpg'
+import bigFootIcon from '../../public/assets/avatars/bigfoot-ava.jpg'
+import birdIcon from '../../public/assets/avatars/bird-ava.png'
+import catAvaIcon from '../../public/assets/avatars/cat-ava.jpg'
+import horseIcon from '../../public/assets/avatars/horse-ava.jpg'
+import manIcon from '../../public/assets/avatars/man-ava.jpg'
+import shotIcon from '../../public/assets/avatars/shot-ava.jpg'
 
 
 const navItems = [
@@ -40,5 +48,85 @@ const swapNavItems = [
 	{ text: 'More', link: '', id: 4 },
 ]
 
-export { navItems, collectionItems, whatsNftItems, swapNavItems }
+const trendingNowItems = [
+	{
+		icon: starIcon,
+		id: 1,
+		avatar: threeDBirdIcon,
+		checkIcon: '',
+		text: 'PAW$ VOICHES',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 2,
+		avatar: bigFootIcon,
+		checkIcon: '',
+		text: 'Portals',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 3,
+		avatar: birdIcon,
+		checkIcon: '',
+		text: 'Mad Lads',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 4,
+		avatar: catAvaIcon,
+		checkIcon: '',
+		text: 'Retardio',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 5,
+		avatar: horseIcon,
+		checkIcon: '',
+		text: 'DeGods',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 6,
+		avatar: manIcon,
+		checkIcon: '',
+		text: 'ai16z partners',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+	{
+		icon: starIcon,
+		id: 7,
+		avatar: shotIcon,
+		checkIcon: '',
+		text: 'P9 Nodes',
+		iconSolana: solanaIcon,
+		textSolana: 5307,
+		nextTextSolana: 10000,
+		minted: 'Minted',
+	},
+]
+
+export { navItems, collectionItems, whatsNftItems, swapNavItems, trendingNowItems }
 

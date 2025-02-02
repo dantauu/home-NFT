@@ -1,0 +1,91 @@
+.trending__now__collection__full-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.trending__now__collection-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 300px;
+    overflow: auto;
+    width: 620px;
+    background: rgb(7 11 20);
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.trending__now__collection__solana-wrapper {
+    display: flex;
+    align-items: center;
+    background: #3d3d3d;
+    padding: 10px 4px 10px 4px;
+    border-radius: 5px;
+}
+
+.trending__now__collection-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 580px;
+    justify-content: space-between;
+}
+
+.trending__now__collection__img-inner {
+    width: 40px;
+}
+
+.trending__now__collection__avatar-inner {
+    border-radius: 50%;
+    width: 65px;
+    height: 60px;
+}
+
+.trending__now__collection-text {
+    width: 130px;
+}
+
+.trending__now__collection__solana-img {
+    padding-right: 7px;
+}
+
+.trending__now__collection-minted {
+    padding-left: 7px;
+}
+
+.trending__now__title-wrapper {
+    padding: 85px 0 40px 0;
+    text-align: center;
+}
+
+.trending__now__title-item {
+    background: var(--main-gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat-B';
+}
+
+.trending__now__collection__number-inner {
+    font-family: 'Fira';
+}
+
+.trending__now__collection__text-inner {
+    font-family: 'Fira';
+}
+
+.trending__now__collection__solana__text-inner {
+    font-family: 'Fira';
+}
+
+.trending__now__collection__solana__next__text-inner {
+    font-family: 'Fira';
+}
+
+.trending__now__collection__minted-inner {
+    font-family: 'Fira';
+}
+
+.trending__now__collection__solana__img-inner {
+    width: 30px;
+}

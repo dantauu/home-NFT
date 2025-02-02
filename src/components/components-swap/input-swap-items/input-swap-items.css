@@ -1,0 +1,92 @@
+
+.page__swap-wrapper {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input__swap-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 470px;
+    background: #1b1b1b;
+    border-radius: 10px;
+    padding: 10px 19px 10px 20px;
+}
+
+.input__swap__wrapper__text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.input__swap__item-inner {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 30px;
+}
+
+.swap__button__item-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.swap__button-item {
+    margin-top: 60px;
+    background: linear-gradient(90deg, rgb(229 158 241 / 41%), rgb(121 237 224 / 37%));
+    color: #ffffff9b;
+    border: none;
+    cursor: pointer;
+    width: 373px;
+    height: 77px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+.swap__button-item:hover {
+    background: var(--gradient-text-ease);
+    color: #fff;
+}
+
+.input__swap__item-inner::placeholder {
+    color: #ffffff75;
+}
+
+.input__swap__icon__text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input__swap__icon-arrow {
+    cursor: pointer;
+}
+
+.input__swap__icon__arrow-item {
+    width: 14px;
+    transform: rotate(92deg)
+}
+
+.input__swap__icon-item {
+    width: 30px;
+}
+
+.input__swap__text-inner {
+    font-size: 25px;
+    font-family: 'Fira';
+}
+
+.input__swap__inoc__text-item {
+    font-family: 'Fira';
+}

@@ -1,0 +1,68 @@
+import { trendingNowItems } from '../../../../public/data/data'
+import './trending-now.css'
+
+const TrendingNow = () => {
+    return (
+        <div className="container">
+            <div className="trending__now-wrapper">
+                <div className="trending__now__title-wrapper">
+                    <h1 className='trending__now__title-item'>
+                        Trending now
+                    </h1>
+                </div>
+             <div className="trending__now__collection__full-wrapper">
+                <div className="trending__now__collection-wrapper">
+                    {trendingNowItems.map((item) => (
+                        <div key={item.id} className="trending__now__collection-item">
+                            <div className="trending__now__collection-img">
+                                <img className='trending__now__collection__img-inner' 
+                                src={item.icon} alt="" />
+                            </div>
+                            <div className="trending__now__collection-number">
+                                <p className="trending__now__collection__number-inner">
+                                    {item.id}
+                                </p>
+                            </div>
+                            <div className="trending__now__collection__avatar-wrapper">
+                                <div className="trending__now__collection-avatar">
+                                    <img className='trending__now__collection__avatar-inner' src={item.avatar} alt="" />
+                                </div>
+                                <div className="trending__now__collection-check">
+                                    <img src={''} alt="" />
+                                </div>
+                            </div>
+                            <div className="trending__now__collection-text">
+                                <p className="trending__now__collection__text-inner">
+                                    {item.text}
+                                </p>
+                            </div>
+                            <div className="trending__now__collection__solana-wrapper">
+                                <div className="trending__now__collection__solana-img">
+                                  <img className='trending__now__collection__solana__img-inner' src={item.iconSolana} alt="" />
+                                </div>
+                                <div className="trending__now__collection__solana-text">
+                                 <p className="trending__now__collection__solana__text-inner">
+                                    {item.textSolana}/
+                                 </p>
+                                </div>
+                                <div className="trending__now__collection__solana__next-text">
+                                 <p className="trending__now__collection__solana__next__text-inner">
+                                    {item.nextTextSolana}
+                                 </p>
+                                </div>
+                                <div className="trending__now__collection-minted">
+                                 <p className="trending__now__collection__minted-inner">
+                                    {item.minted}
+                                 </p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+              </div>
+            </div>
+        </div>
+    )
+}
+
+export default TrendingNow
