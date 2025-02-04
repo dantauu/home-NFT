@@ -1,10 +1,28 @@
+
 .header__wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.drop__menu-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    right: 52%;
+    background: #000000;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+}
+
+.drop__menu-item {
+    font-family: 'Fira';
+}
+
 .header__nav-list {
+    position: relative;
     display: flex;
     gap: 20px;
 }
@@ -13,6 +31,7 @@
     font-family: 'Fira';
     color: rgb(244 113 49);
     transition: all 0.2s ease-in-out;
+    position: relative;
 }
 
 .header__nav-item:hover {

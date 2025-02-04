@@ -1,6 +1,37 @@
+
 .home__nft-text {
+    padding-top: 50px;
+}
+
+.home__nft__text-inner {
     font-family: 'Montserrat-B';
     font-size: 47px;
+}
+
+.trending__nfts-wrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.trending__nfts-inner {
+    font-family: 'Montserrat-B';
+    font-size: 40px;
+}
+
+.home__nft__trending__text-item {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trending__coins-wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.span__current-word {
     background: var(--gradient-text-ease);
     -webkit-background-clip: text;
     background-clip: text;
@@ -12,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 5px;
 }
 
 /* INPUT */
@@ -94,7 +125,6 @@
 }
 
 .home__nft__text-item {
-    width: 580px;
     text-align: center;
 }
 
