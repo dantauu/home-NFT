@@ -4,6 +4,60 @@
     justify-content: center;
     gap: 30px;
     padding-bottom: 30px;
+    position: relative;
+}
+
+.full__wrapper-blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.buttons__nav__trending__item-blockchain {
+    position: absolute;
+    top: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: #222222;
+    padding: 20px 15px 20px 15px;
+    height: 131px;
+    width: 178px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buttons__nav__trending__item__blockchain-text {
+    font-family: 'Fira';
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.full__wrapper-coin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons__nav__trending__item-coin {
+    position: absolute;
+    top: 62px;
+    background: #222222;
+    padding: 17px 15px 20px 15px;
+    height: 131px;
+    width: 178px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons__nav__trending__item__coin-text {
+    font-family: 'Fira';
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .buttons__nav__trending__item-inner {

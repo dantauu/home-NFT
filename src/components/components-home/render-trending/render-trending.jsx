@@ -9,8 +9,8 @@ import './render-trending.css'
 const TrendingContentRender = () => {
     const { showTrending } = useContext(TrendingContext) 
     const renderContent = {
-        'Top Solana NFT`s': <TrendingSolana />,
-        'Memecoin NFT`s': <TrendingMemecoin />
+        'Solana': <TrendingSolana />,
+        'Memcoin': <TrendingMemecoin />
     }
     return (
         <>

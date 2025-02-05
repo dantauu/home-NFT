@@ -22,7 +22,10 @@
 
 .footer__wrapper-back {
     margin-top: 90px;
-    background: rgb(7 11 20)
+    background-image: url(/public/assets/footer.jpg);
+    background-size: cover;
+    display: flex;
+    background-position: center;
 }
 
 .collection__footer-wrapper {

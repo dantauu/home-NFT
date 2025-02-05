@@ -21,7 +21,7 @@ import memeCoinIcon from '../../public/assets/memecoin.png'
 
 const navItems = [
 	{ text: 'Collections', id: 1, link: '' },
-	{ text: 'Tools', id: 2, link: '' },
+	{ text: 'Tools', id: 2, link: '#!' },
 	{ text: 'Create NFT', id: 3, link: '/create-nft' },
 	{ text: 'Launch Coin', id: 4, link: '' },
 	{ text: 'Swap', id: 5, link: '/swap' },
@@ -211,11 +211,24 @@ const trendingMemeItems = [
 	},
 ]
 
+const menuItems = [
+	{ id: 1, textBlockchain: 'Solana', link: '#!' },
+	{ id: 2, textBlockchain: 'Ethereum', link: '#!' },
+	{ id: 3, textBlockchain: 'Binance', link: '#!' },
+	{ id: 4, textBlockchain: 'Cardano', link: '#!' },
+
+	{ id: 5, textCoins: 'BNB', link: '#!' },
+	{ id: 6, textCoins: 'Bitcoin', link: '#!' },
+	{ id: 7, textCoins: 'Tether', link: '#!' },
+	{ id: 8, textCoins: 'Memcoin', link: '#!' },
+]
+
 export { navItems,
 		collectionItems,
 		whatsNftItems,
 		swapNavItems,
 		trendingNowItems,
-		trendingMemeItems
+		trendingMemeItems,
+		menuItems
 		}
 
