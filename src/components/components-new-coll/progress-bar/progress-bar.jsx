@@ -11,7 +11,7 @@ const ProgressBar = () => {
     )
 }
 
-const ProgressItem = ({ number, text, classLine }) => {
+export const ProgressItem = ({ number, text, classLine }) => {
     return (
     <div className="progress__bar-wrapper">
             <div className="progress__bar-number">
@@ -32,3 +32,4 @@ const ProgressItem = ({ number, text, classLine }) => {
 }
 
 export default ProgressBar
+

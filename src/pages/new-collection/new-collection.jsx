@@ -4,7 +4,7 @@ import ProgressBar from "../../components/components-new-coll/progress-bar/progr
 
 const NewCollection =() => {
     return (
-        <div className="container">
+        <div className="container-colllection-generate">
             <ProgressBar />
             <CollectionDetails />
         </div>

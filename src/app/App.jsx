@@ -6,6 +6,7 @@ import Swap from "../pages/swap/swap"
 import CreateNft from "../pages/create-nft/create-nft"
 import Header from "../components/components-home/header/header"
 import NewCollection from "../pages/new-collection/new-collection"
+import GenerateCollection from "../pages/generate-collection/generate-collection"
 
 
 
@@ -34,6 +35,7 @@ function App() {
 						<Route path='/swap' element={<Swap />} />
 						<Route path='/create-nft' element={<CreateNft />} />
 						<Route path='/new-collection' element={<NewCollection />} />
+						<Route path='/generate-collection' element={<GenerateCollection />} />
 					</Routes>
 				{location.pathname !== '/swap' && <Footer /> }
 				</DropHeaderContext.Provider>

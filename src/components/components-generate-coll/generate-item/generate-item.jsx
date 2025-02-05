@@ -1,14 +1,15 @@
-import Checkbox from '../../../shared/ui/checkbox/checkbox'
+import Checkbox from "../../../shared/ui/checkbox/checkbox"
 import solanaIcon from '../../../../public/assets/solana.png'
-import './collection-details.css'
-import SecondaryMint from '../secondary-mint/secondary-mint'
+import SecondaryMint from "../../components-new-coll/secondary-mint/secondary-mint"
 
-const CollectionDetails = () => {
+
+const GenerateItem = () => {
     return (
-			<div className='collection__details-wrapper'>
+        <div className="generate-wrapper">
+            <div className='collection__details-wrapper'>
 				<div className='collection__details-title'>
 					<h1 className='collection__details__title-inner'>
-						Collection Details
+						Collection Generate
 					</h1>
 				</div>
 				<div className='collection__details'>
@@ -188,7 +189,8 @@ const CollectionDetails = () => {
             </div>
         </div>
 	</div>
-		)
+        </div>
+    )
 }
 
-export default CollectionDetails
+export default GenerateItem
