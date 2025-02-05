@@ -11,12 +11,14 @@ const NftCreateCard = () => {
                     description={'Already have your NFT assets? Upload and launch your NFT collection.'}
                     buttonText={'New Collection'}
                     img={starIcon}
+                    link={'/new-collection'}
                     />
                     <CreateNftCard
                     title={'Generate Collection'}
                     description={'Create and launch your randomly generated NFT collection'}
                     buttonText={'Generate Collection'}
                     img={starIcon}
+                    link={'/generate-collection'}
                     />
             </div>
         </div>

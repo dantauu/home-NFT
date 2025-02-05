@@ -1,0 +1,218 @@
+
+
+.collection__details__input-wrapper {
+    display: flex;
+    gap: 75px;
+}
+
+.collection__details-title {
+    padding: 54px 0 40px 0;
+}
+
+.collection__details__title-inner {
+    font-family: 'Montserrat-B';
+    font-size: 38px;
+    text-align: center;
+}
+
+.collection__details__collection__text-inner {
+    font-family: 'Montserrat-B';
+    font-size: 30px;
+}
+
+.collection__details-name__inner-title {
+    font-family: 'Fira';
+    font-size: 15px;
+}
+
+.collection__details__collection-text {
+    padding-bottom: 30px;
+}
+
+.collection__details-name__inner {
+    padding-bottom: 20px;
+}
+
+.collection__details__input__item-inner {
+    border: none;
+    outline: none;
+    width: 208px;
+    height: 51px;
+    background: #252525;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Fira';
+}
+
+.collection__details__input__data__title-wrapper {
+    padding-top: 30px;
+}
+
+.collection__details__input__data-title {
+    padding-bottom: 18px;
+}
+
+.collection__details__input__data__title-inner {
+    font-family: 'Fira';
+    font-size: 18px;
+}
+
+.collection__details__input__data-inner {
+    padding: 0 10px;
+    width: 208px;
+    height: 51px;
+    background: #252525;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: 'Fira';
+    font-size: 18px;
+}
+
+.collection__details-metadata {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.collection__details__metadata-title {
+    padding: 30px 0;
+}
+
+.collection__details__metadata__title-inner {
+    font-family: 'Fira';
+}
+
+.collection__details__metadata__checkbox-inner {
+    font-family: 'Fira';
+    font-size: 18px;
+}
+
+.collection__details__nft-title {
+    padding: 30px 0;
+}
+
+.collection__details__nft__title__inner {
+    font-size: 19px;
+}
+
+.collection__details__nft__title-base {
+    padding-bottom: 20px;
+}
+
+.collection__details__nft__title__inner {
+    font-family: 'Fira';
+}
+
+.collection__details__nft__title__base-inner {
+    font-family: 'Fira';
+    font-size: 19px;
+}
+
+.collection__details__nft__input-inner {
+    width: 300px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #252525;
+    border-radius: 15px;
+    padding: 0 20px;
+    font-size: 19px;
+    font-family: 'Fira';
+}
+
+.collection__details__nft__description__inner-item {
+    font-family: 'Fira';
+    font-size: 19px;
+}
+
+.collection__details__nft-description {
+    padding-top: 40px;
+}
+
+.collection__details__nft__description__input-inner {
+    width: 300px;
+    height: 75px;
+    border: none;
+    outline: none;
+    background: #252525;
+    border-radius: 15px;
+    padding: 0 20px;
+    font-size: 19px;
+    font-family: 'Fira';
+}
+
+.collection__details__nft-mint {
+    display: flex;
+    padding-top: 40px;
+    gap: 50px;
+}
+
+.collection__details__nft__mint__title-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collection__details__nft__mint__input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #252525;
+    border-radius: 15px;
+    padding-right: 20px;
+}
+
+.collection__details__nft-royalties {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collection__details__nft__mint__title-inner {
+    font-family: 'Fira';
+    font-size: 19px;
+}
+
+.collection__details__nft__royalties__text-inner {
+    font-family: 'Fira';
+    font-size: 19px;
+}
+
+.collection__details__nft__royalties__input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #252525;
+    border-radius: 15px;
+    padding-right: 20px;
+}
+
+.collection__details__nft__mint__input__inner {
+    width: 210px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 19px;
+    font-family: 'Fira';
+    background: none;
+}
+
+.collection__details__nft__royalties__input-inner {
+    width: 210px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 19px;
+    font-family: 'Fira';
+    background: none;
+}
+
+.collection__details__nft__mint__input__img-inner {
+    width: 30px;
+}
+
+.collection__details__nft__img-inner {
+    width: 30px;
+}

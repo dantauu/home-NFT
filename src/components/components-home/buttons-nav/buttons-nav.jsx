@@ -10,14 +10,12 @@ const ButtonsNav = () => {
     const { showTrending, setShowTrending } = useContext(TrendingContext)
 	const [showBlockchain, setShowBlockchain] = useState(false)
 	const [showCoin, setShowCoin] = useState(false)
-
 	const handleShowBlockchain = (id) => {
 		if (id === 1) {
 			setShowTrending('Solana')
 			setShowBlockchain(false)
 		}
 	}
-
 	const handleShowCoin = (id) => {
 		if (id === 8) {
 			setShowTrending('Memcoin')

@@ -5,6 +5,7 @@ import { Route, Routes, useLocation } from "react-router-dom"
 import Swap from "../pages/swap/swap"
 import CreateNft from "../pages/create-nft/create-nft"
 import Header from "../components/components-home/header/header"
+import NewCollection from "../pages/new-collection/new-collection"
 
 
 
@@ -32,6 +33,7 @@ function App() {
 						<Route path='/' element={<Home />} />
 						<Route path='/swap' element={<Swap />} />
 						<Route path='/create-nft' element={<CreateNft />} />
+						<Route path='/new-collection' element={<NewCollection />} />
 					</Routes>
 				{location.pathname !== '/swap' && <Footer /> }
 				</DropHeaderContext.Provider>
