@@ -33,8 +33,7 @@ const ButtonsNav = () => {
 						onClick={() => 
 							{handleSelect('Blockchain'), 
 							setShowBlockchain(prev => !prev)}}
-						buttonClass={`buttons__nav__trending__item-inner 
-						${showTrending === 'Blockchain' && 'select'}`}
+						buttonClass={'buttons__nav__trending__item-inner'}
 						buttonText={'Blockchain'}
 					/>
 				</div>
@@ -62,8 +61,7 @@ const ButtonsNav = () => {
 						<Button
 							onClick={() =>{handleSelect('Coins'), 
 								setShowCoin(prev => !prev)}}
-							buttonClass={`buttons__nav__trending__item-inner 
-							${showTrending === 'Coins' && 'select'}`}
+							buttonClass={'buttons__nav__trending__item-inner'}
 							buttonText={'Coins'}
 						/>
 					</div>

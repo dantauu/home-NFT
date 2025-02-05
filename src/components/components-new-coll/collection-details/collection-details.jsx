@@ -158,7 +158,6 @@ const CollectionDetails = () => {
                         </div>
                     </div>
 				</div>
-			// </div>
 		)
 }
 
