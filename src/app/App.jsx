@@ -7,6 +7,7 @@ import CreateNft from "../pages/create-nft/create-nft"
 import Header from "../components/components-home/header/header"
 import NewCollection from "../pages/new-collection/new-collection"
 import GenerateCollection from "../pages/generate-collection/generate-collection"
+import LaunchCoin from "../pages/launch-coin/launch-coin"
 
 
 
@@ -29,13 +30,15 @@ function App() {
 		<TrendingContext.Provider value={{ showTrending, setShowTrending }}>
 			<InputContext.Provider value={{ activeInput, aciveInputFunc }}>
 			<DropHeaderContext.Provider value={{dropHeader, setDropHeader}}>
-				{location.pathname !== '/swap' && <Header />}
+				{location.pathname !== '/swap' && 
+				 location.pathname !== '/launch-coin' && <Header />}
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/swap' element={<Swap />} />
 						<Route path='/create-nft' element={<CreateNft />} />
 						<Route path='/new-collection' element={<NewCollection />} />
 						<Route path='/generate-collection' element={<GenerateCollection />} />
+						<Route path='/launch-coin' element={<LaunchCoin />} />
 					</Routes>
 				{location.pathname !== '/swap' && <Footer /> }
 				</DropHeaderContext.Provider>

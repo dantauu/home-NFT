@@ -1,0 +1,75 @@
+
+
+.header__launch-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__repeat-wrapper  {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.header__repeat__btn-wrapper {
+    display: flex;
+    align-items: center;
+    background: var(--gradient-text-ease);
+    width: 188px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.header__rocket-wrapper {
+    display: flex;
+    align-items: center;
+    background: var(--gradient-text-ease);
+    width: 188px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.header__connect__btn-inner {
+    display: flex;
+    align-items: center;
+    background: var(--gradient-text-ease);
+    width: 188px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Fira';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-repeat__text-inner {
+    font-family: 'Fira';
+    font-size: 17px;
+    color: #000;
+}
+
+.header__rocket__text-inner {
+    font-family: 'Fira';
+    font-size: 17px;
+    color: #000;
+}
+
+.header__logo__launch-inner {
+    width: 70px;
+}
+
+.header__repeat__img-inner {
+    width: 30px;
+}
+
+.header__rocket__img-inner {
+    width: 35px;
+}

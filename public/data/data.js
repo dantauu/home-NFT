@@ -23,7 +23,7 @@ const navItems = [
 	{ text: 'Collections', id: 1, link: '' },
 	{ text: 'Tools', id: 2, link: '#!' },
 	{ text: 'Create NFT', id: 3, link: '/create-nft' },
-	{ text: 'Launch Coin', id: 4, link: '' },
+	{ text: 'Launch Coin', id: 4, link: '/launch-coin' },
 	{ text: 'Swap', id: 5, link: '/swap' },
 ]
 
