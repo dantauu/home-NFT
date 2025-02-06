@@ -40,17 +40,12 @@ const Footer = () => {
                     <div className="collection__footer-wrapper">
                         <div className="collection__footer-title">
                             <Link to={''} className='collection__footer__title-item'>
-                                Explore
+                                Discord
                             </Link>
                         </div>
                         <div className="collection__footer-item">
                             <Link to={''} className="collection__footer__title-item">
-                                Hot
-                            </Link>
-                        </div>
-                        <div className="collection__footer-item">
-                            <Link to={''} className="collection__footer__title-item">
-                                Latest
+                                Twitter
                             </Link>
                         </div>
                     </div>
