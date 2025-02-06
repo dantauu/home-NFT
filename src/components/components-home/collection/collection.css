@@ -64,7 +64,7 @@
 }
 
 /* Adaptive */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
     .collection__title-item {
         font-size: 70px;
     }
