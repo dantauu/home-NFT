@@ -2,6 +2,7 @@
 .nft__create__card__full-wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -51,6 +52,26 @@
 
 /* Adaptive */
 
-@media screen and (max-width: 1100px) {
-    
+@media screen and (max-width: 1150px) {
+    .creat__nft__card-wrapper {
+        width: 725px;
+        height: 655px;
+    }
+        .create__nft__card__img-item {
+            width: 224px;
+        }
+            .create__nft__card__title-item {
+                font-size: 56px;
+            }
+                .create__nft__card-description  {
+                    max-width: 475px;
+                }
+                    .create__nft__card__description-item {
+                        font-size: 30px;
+                    }
+                        .create__nft__card__button-item {
+                            width: 321px;
+                            height: 103px;
+                            font-size: 32px;
+                        }
 }

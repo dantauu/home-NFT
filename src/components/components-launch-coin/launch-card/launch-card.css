@@ -13,7 +13,7 @@
     flex-direction: column;
     margin-top: 70px;
     background: #242424;
-    max-width: 426px;
+    width: 426px;
     height: 173px;
     border-radius: 10px;
     padding: 0 40px;
@@ -98,4 +98,47 @@
 .aunch__card__img-inner {
     width: 90px;
     border-radius: 10px;
+}
+
+/* Adaptive */
+
+@media screen and (max-width: 1150px) {
+    .launch__card__full-wrapper {
+        width: 540px;
+        height: 250px;
+    }
+        .aunch__card__img-inner {
+            width: 134px;
+        }
+            .launch__card-wrapper {
+                gap: 38px;
+            }
+                .launch__card__title-inner {
+                    font-size: 31px;
+                }
+                    .launch__card__dollar-inner {
+                        font-size: 25px;
+                    }
+                        .launch__card__created-inner {
+                            font-size: 25px;
+                        }
+                            .launch__card__text-inner {
+                                font-size: 25px;
+                            }
+                                .launch__card__progress__back-left {
+                                    height: 32px;
+                                }
+                                    .launch__card__progress__back-right {
+                                        height: 32px;
+                                    }
+                                        .launch__card__progress-item {
+                                            top: 20px;
+                                        }
+                                            .launch__card__progress-inner {
+                                                font-size: 25px;
+                                            }
+                                                .launch__input-wrapper {
+                                                    width: 350px;
+                                                    height: 70px;
+                                                }
 }

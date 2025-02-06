@@ -164,7 +164,11 @@
 
 @media screen and (max-width: 1150px) {
     .swiper-slide img {
-        width: 600px;
-        height: 326px;
+        width: 845px;
+        height: 438px;
+        border-radius: 40px;
     }
+        .swiper-wrapper {
+            padding-top: 30px;
+        }
 }

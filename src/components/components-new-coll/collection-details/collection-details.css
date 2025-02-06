@@ -148,8 +148,9 @@
 
 .collection__details__nft-mint {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 40px;
-    gap: 50px;
+    gap: 23px;
 }
 
 .collection__details__nft__mint__title-flex {
@@ -264,4 +265,19 @@
 
 .collection__details__preview-img__inner {
     width: 25px;
+}
+
+
+/* Adaptive */
+
+@media screen and (max-width: 1150px) {
+    .secondary__mint-title {
+        text-align: center;
+    }
+        .secondary__mint__input__btn-wrapper {
+            align-items: center;
+        }
+            .collection__details__nft-mint {
+                padding: 90px 0;
+            }
 }
