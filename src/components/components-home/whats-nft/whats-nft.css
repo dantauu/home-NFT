@@ -34,3 +34,11 @@
 .whats__nft__img_item {
     width: 50px;
 }
+
+/* Adaptive */
+
+@media screen and (max-width: 800px) {
+    .whats__title__item-inner  {
+        font-size: 49px;
+    }
+}

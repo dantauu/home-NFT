@@ -10,3 +10,11 @@
     color: transparent;
     font-family: 'Montserrat-B';
 }
+
+/* Adaptive */
+
+@media screen and (max-width: 800px) {
+    .trending__now__title-item {
+        font-size: 65px;
+    }
+}

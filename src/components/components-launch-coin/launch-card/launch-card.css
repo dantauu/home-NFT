@@ -1,0 +1,101 @@
+
+
+.launch__card__this__full-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.launch__card__full-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    background: #242424;
+    max-width: 426px;
+    height: 173px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.launch__card-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.launch__card-progress {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.launch__card__progress-item {
+    position: absolute;
+    top: 16px;
+    left: 43px;
+}
+
+.launch__card__progress-inner {
+    color: #000;
+}
+
+.launch__card__progress__back-wrapper {
+    display: flex;
+    padding-top: 19px;
+}
+
+.launch__card__progress__back-right {
+    background: #fff;
+    width: 170px;
+    height: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.launch__card__progress__back-left {
+    background: var(--gradient-text-ease);
+    width: 110px;
+    height: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.launch__card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.span-launch {
+    color: #008e80;
+}
+
+.launch__card__title-inner {
+    font-family: 'Fira';
+}
+
+.launch__card__dollar-inner {
+    font-family: 'Fira';
+}
+
+.launch__card__created-inner {
+    font-family: 'Fira';
+}
+
+.launch__card__text-inner {
+    font-family: 'Fira';
+}
+
+.launch__card__progress-inner {
+    font-family: 'Fira';
+}
+
+.launch__card-img {
+    padding-right: 15px;
+}
+
+.aunch__card__img-inner {
+    width: 90px;
+    border-radius: 10px;
+}

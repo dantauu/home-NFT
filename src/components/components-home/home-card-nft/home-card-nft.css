@@ -145,7 +145,7 @@
 
 .swiper-slide img {
     display: block;
-    width: 860px;
+    width: 860px; /* 600 x 326 */
     height: 430px;
     object-fit: cover;
 }
@@ -159,3 +159,12 @@
     height: 13px;
 }
 
+
+/* Adaptive */
+
+@media screen and (max-width: 870px) {
+    .swiper-slide img {
+        width: 600px;
+        height: 326px;
+    }
+}
