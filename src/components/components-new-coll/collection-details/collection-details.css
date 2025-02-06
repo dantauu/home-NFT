@@ -279,5 +279,6 @@
         }
             .collection__details__nft-mint {
                 padding: 90px 0;
+                gap: 55px;
             }
 }
