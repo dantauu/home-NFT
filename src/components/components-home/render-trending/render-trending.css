@@ -13,7 +13,7 @@
 
 /* Adaptive */
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1150px) {
     .trending__now__title-item {
         font-size: 65px;
     }
