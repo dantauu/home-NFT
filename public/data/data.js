@@ -213,14 +213,15 @@ const trendingMemeItems = [
 
 const menuItems = [
 	{ id: 1, textBlockchain: 'Solana', link: '#!' },
-	{ id: 2, textBlockchain: 'Ethereum', link: '#!' },
-	{ id: 3, textBlockchain: 'Binance', link: '#!' },
-	{ id: 4, textBlockchain: 'Cardano', link: '#!' },
+	{ id: 2, textBlockchain: 'Abstract', link: '#!' },
+	{ id: 3, textBlockchain: 'ETH', link: '#!' },
+	{ id: 4, textBlockchain: 'Polygon', link: '#!' },
+	{ id: 5, textBlockchain: 'BTC', link: '#!' },
+	{ id: 6, textBlockchain: 'Ordinals', link: '#!' },
 
-	{ id: 5, textCoins: 'BNB', link: '#!' },
-	{ id: 6, textCoins: 'Bitcoin', link: '#!' },
-	{ id: 7, textCoins: 'Tether', link: '#!' },
-	{ id: 8, textCoins: 'Memcoin', link: '#!' },
+	{ id: 6, textCoins: 'SOLANA', link: '#!' },
+	{ id: 7, textCoins: 'ABSTRACT', link: '#!' },
+	// { id: 8, textCoins: 'Memcoin', link: '#!' },
 ]
 
 export { navItems,

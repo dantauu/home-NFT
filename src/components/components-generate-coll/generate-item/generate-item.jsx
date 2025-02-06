@@ -18,7 +18,10 @@ const GenerateItem = () => {
 							Collection
 						</p>
 					</div>
-					<div className='collection__details-name'>
+
+                    <div className="one">
+                        <div className="two">
+                        <div className='collection__details-name'>
 						<div className='collection__details-name__inner'>
 							<p className='collection__details-name__inner-title'>
 								Collection Name
@@ -33,6 +36,14 @@ const GenerateItem = () => {
 								placeholder='My NFTs'
 							/>
 						</div>
+                    </div>
+                    </div>
+                        <div className="two">
+                            <div className='collection__details-name__inner'>
+							<p className='collection__details-name__inner-title'>
+								Symbol
+							</p>
+						</div>
 						<div className='collection__details__input-item'>
 							<input
 								className='collection__details__input__item-inner'
@@ -40,7 +51,15 @@ const GenerateItem = () => {
 								placeholder='MNFT'
 							/>
 						</div>
+                        </div>
+
 						<div className='collection__details__input__date-wrapper'>
+                            <div className="two">
+                                 <div className='collection__details-name__inner'>
+							        <p className='collection__details-name__inner-title'>
+								      Collection Description
+							    </p>
+						</div>
 							<div className='collection__details__input-item'>
 								<input
 									className='collection__details__input__item-inner'
@@ -48,6 +67,7 @@ const GenerateItem = () => {
 									placeholder='My collection'
 								/>
 							</div>
+                            </div>
 						</div>
 					</div>
 					<div className='collection__details__input__data__title-wrapper'>
@@ -58,7 +78,8 @@ const GenerateItem = () => {
 						</div>
 						<div className='collection__details__input__data-item'>
 							<input className='collection__details__input__data-inner'
-								type='date'
+							  	type='text' name='date' id="date"
+                                placeholder="Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" 
 							/>
 						</div>
 					</div>
@@ -187,9 +208,14 @@ const GenerateItem = () => {
                     </div>
                 </div>
             </div>
+            <div className="collection__details__btn-next">
+                <button className='collection__details__btn__next-inner'>
+                    Next
+                </button>
+            </div>
         </div>
 	</div>
-        </div>
+</div>
     )
 }
 

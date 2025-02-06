@@ -1,4 +1,45 @@
 
+/* Input */
+
+.collection__details__input__data-item {
+  height: 2.5em;
+  width: 12.5em;
+  border-radius: 2.5em;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  outline: 2px solid rgba(0, 0, 0, 0);
+  transition: outline-offset 0.5s ease, outline-color 0.5s ease,
+    height 0.5s ease, width 0.5s ease, filter 0.5s ease;
+}
+
+.collection__details__input__data-inner:focus {
+  outline-offset: 0.5em;
+  outline-color: rgba(0, 0, 0, 0.228);
+  transition: 0.2s;
+  height: 3em;
+  width: 13em;
+  -webkit-filter: drop-shadow(1px 1px 10px #000);
+  filter: drop-shadow(-7px 7px 10px #00000059);
+}
+
+.collection__details__input__data-inner::placeholder {
+  padding-left: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateX(-6px);
+  transition: transform 0.5s ease;
+}
+
+.collection__details__input__data-inner:focus::placeholder {
+  transform: translateX(-85px);
+  transition: 0.5s;
+}
+
+
 .collection__details__input-wrapper {
     display: flex;
     gap: 75px;
@@ -29,7 +70,7 @@
 }
 
 .collection__details-name__inner {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .collection__details__input__item-inner {
@@ -265,6 +306,34 @@
 
 .collection__details__preview-img__inner {
     width: 25px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection__details__btn-next {
+    display: flex;
+    justify-content: end;
+}
+
+.collection__details__btn__next-inner {
+    background: var(--main-gradient-text);
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: 'Fira';
+    font-size: 20px;
+    cursor: pointer;
 }
 
 

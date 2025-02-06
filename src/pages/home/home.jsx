@@ -10,8 +10,8 @@ const Home = () => {
         <>
             <HomeCardNft />
             <TrendingContentRender />
-            <Collection />
-            <WhatsNft />
+            {/* <Collection /> */}
+            {/* <WhatsNft /> */}
         </>
     )
 }

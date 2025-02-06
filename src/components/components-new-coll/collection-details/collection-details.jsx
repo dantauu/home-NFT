@@ -17,13 +17,16 @@ const CollectionDetails = () => {
 							Collection
 						</p>
 					</div>
-					<div className='collection__details-name'>
+                    <div className="one">
+                        <div className="two">
+                        <div className='collection__details-name'>
 						<div className='collection__details-name__inner'>
 							<p className='collection__details-name__inner-title'>
 								Collection Name
 							</p>
 						</div>
 					</div>
+
 					<div className='collection__details__input-wrapper'>
 						<div className='collection__details__input-item'>
 							<input
@@ -32,6 +35,14 @@ const CollectionDetails = () => {
 								placeholder='My NFTs'
 							/>
 						</div>
+                    </div>
+                    </div>
+                        <div className="two">
+                            <div className='collection__details-name__inner'>
+							<p className='collection__details-name__inner-title'>
+								Symbol
+							</p>
+						</div>
 						<div className='collection__details__input-item'>
 							<input
 								className='collection__details__input__item-inner'
@@ -39,7 +50,15 @@ const CollectionDetails = () => {
 								placeholder='MNFT'
 							/>
 						</div>
+                        </div>
+
 						<div className='collection__details__input__date-wrapper'>
+                            <div className="two">
+                                 <div className='collection__details-name__inner'>
+							        <p className='collection__details-name__inner-title'>
+								      Collection Description
+							    </p>
+						</div>
 							<div className='collection__details__input-item'>
 								<input
 									className='collection__details__input__item-inner'
@@ -47,6 +66,7 @@ const CollectionDetails = () => {
 									placeholder='My collection'
 								/>
 							</div>
+                            </div>
 						</div>
 					</div>
 					<div className='collection__details__input__data__title-wrapper'>
@@ -57,7 +77,7 @@ const CollectionDetails = () => {
 						</div>
 						<div className='collection__details__input__data-item'>
 							<input className='collection__details__input__data-inner'
-								type='date'
+								type='text' placeholder="Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY"
 							/>
 						</div>
 					</div>
@@ -185,6 +205,11 @@ const CollectionDetails = () => {
                         <SecondaryMint title={'Mint funds Split'} />
                     </div>
                 </div>
+                    <div className="collection__details__btn-next">
+                        <button className='collection__details__btn__next-inner'>
+                            Next
+                        </button>
+                    </div>
             </div>
         </div>
 	</div>

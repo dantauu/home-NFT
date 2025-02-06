@@ -1,7 +1,7 @@
 import logoIcon from '../../../../public/assets/logo.png'
-import vkIcon from '../../../../public/assets/vk.svg'
-import tgIcon from '../../../../public/assets/telegram.svg'
 import { Link } from 'react-router-dom'
+import discordIcon from '../../../../public/assets/discord.svg'
+import twitterIcon from '../../../../public/assets/twitter.svg'
 import './footer.css'
 
 
@@ -17,11 +17,11 @@ const Footer = () => {
                     <div className="footer__socials-wrapper">
                         <Link to={''} className="footer__socials-item">
                             <img className='footer__socials__item-inner' 
-                            src={vkIcon} alt="" />
+                            src={discordIcon} alt="" />
                         </Link>
                         <Link to={''} className="footer__socials-item">
                             <img className='footer__socials__item-inner' 
-                            src={tgIcon} alt="" />
+                            src={twitterIcon} alt="" />
                         </Link>
                     </div>
                     <div className="footer__launch">
@@ -90,17 +90,12 @@ const Footer = () => {
                     <div className="support__footer-wrapper">
                         <div className="support__footer-title">
                             <Link to={''} className='support__footer__title-item'>
-                               VK
+                               Twitter
                             </Link>
                         </div>
                         <div className="support__footer-item">
                             <Link to={''} className="support__footer__title-item">
-                                Telegram
-                            </Link>
-                        </div>
-                        <div className="support__footer-item">
-                            <Link to={''} className="support__footer__title-item">
-                                About us
+                                Discord
                             </Link>
                         </div>
                     </div>
