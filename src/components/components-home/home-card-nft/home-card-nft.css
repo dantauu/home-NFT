@@ -162,7 +162,7 @@
 
 /* Adaptive */
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 940px) {
     .swiper-slide img {
         width: 600px;
         height: 326px;

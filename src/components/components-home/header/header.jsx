@@ -12,7 +12,7 @@ import './header.css'
 
 
 const Header = () => {
-	const isMobile = useMediaQuery('(max-width: 890px)')
+	const isMobile = useMediaQuery('(max-width: 1100px)')
 	const [aciveMenu, setActiveMenu] = useState(false)
 	const { setDropHeader } = useContext(DropHeaderContext)
 	const { aciveInputFunc } = useContext(InputContext)

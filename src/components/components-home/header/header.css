@@ -104,7 +104,7 @@
 
 /* Adaptive */
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 940px) {
     .header__logo-item  {
         width: 160px;
     }
